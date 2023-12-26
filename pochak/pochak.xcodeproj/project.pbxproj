@@ -35,10 +35,9 @@
 		374148132AB59AC8009CFF5E /* TabbarHeadingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374148112AB59AC8009CFF5E /* TabbarHeadingCollectionViewCell.xib */; };
 		374148192AB5A5BB009CFF5E /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374148182AB5A5BB009CFF5E /* SecondTabViewController.swift */; };
 		3741481B2AB5A5D8009CFF5E /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3741481A2AB5A5D8009CFF5E /* FirstTabViewController.swift */; };
-		375A466D2B3A9C8B0048484F /* GoogleLoginAPIInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A466C2B3A9C8B0048484F /* GoogleLoginAPIInput.swift */; };
-		375A466F2B3A9D500048484F /* GoogleLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A466E2B3A9D500048484F /* GoogleLoginModel.swift */; };
-		375A46712B3A9DEA0048484F /* GoogleLoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A46702B3A9DEA0048484F /* GoogleLoginDataManager.swift */; };
 		376F125B2A8B7440005F469B /* SocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F125A2A8B7440005F469B /* SocialLoginViewController.swift */; };
+		37FEC7D62B3AFADD003B61B1 /* GoogleLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FEC7D52B3AFADD003B61B1 /* GoogleLoginModel.swift */; };
+		37FEC7D82B3AFAEB003B61B1 /* GoogleLoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FEC7D72B3AFAEB003B61B1 /* GoogleLoginDataManager.swift */; };
 		A6D48ED7F8B86CF57C481991 /* Pods_pochak_pochakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC75B5747D3AC9026B862E11 /* Pods_pochak_pochakUITests.framework */; };
 		AF5AAB97DDEAC75EAEDDCFE4 /* Pods_pochak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65A7656D9D72CC873C98FD4 /* Pods_pochak.framework */; };
 		EA01079A2A59556800A3AE85 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0107952A59556800A3AE85 /* CommentViewController.swift */; };
@@ -121,10 +120,9 @@
 		374148112AB59AC8009CFF5E /* TabbarHeadingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarHeadingCollectionViewCell.xib; sourceTree = "<group>"; };
 		374148182AB5A5BB009CFF5E /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
 		3741481A2AB5A5D8009CFF5E /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
-		375A466C2B3A9C8B0048484F /* GoogleLoginAPIInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginAPIInput.swift; sourceTree = "<group>"; };
-		375A466E2B3A9D500048484F /* GoogleLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginModel.swift; sourceTree = "<group>"; };
-		375A46702B3A9DEA0048484F /* GoogleLoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginDataManager.swift; sourceTree = "<group>"; };
 		376F125A2A8B7440005F469B /* SocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginViewController.swift; sourceTree = "<group>"; };
+		37FEC7D52B3AFADD003B61B1 /* GoogleLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginModel.swift; sourceTree = "<group>"; };
+		37FEC7D72B3AFAEB003B61B1 /* GoogleLoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginDataManager.swift; sourceTree = "<group>"; };
 		67EA6B5B881844A22EE2A55B /* Pods-pochak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pochak.debug.xcconfig"; path = "Target Support Files/Pods-pochak/Pods-pochak.debug.xcconfig"; sourceTree = "<group>"; };
 		6E1916A70A802F298FF38F24 /* Pods_pochakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pochakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5440AA571B5DB6291304B2 /* Pods-pochakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pochakTests.debug.xcconfig"; path = "Target Support Files/Pods-pochakTests/Pods-pochakTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -275,7 +273,7 @@
 		373815142A89E6BE0032066A /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				375A466A2B3A9C380048484F /* GoogleLoginDataManager */,
+				37FEC7D32B3AFA9A003B61B1 /* New Group */,
 				373815152A89E6D30032066A /* SocialJoinViewController.swift */,
 				373815192A8A09DA0032066A /* MakeProfileViewController.swift */,
 				376F125A2A8B7440005F469B /* SocialLoginViewController.swift */,
@@ -304,12 +302,19 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		375A466A2B3A9C380048484F /* GoogleLoginDataManager */ = {
+		37FEC7D32B3AFA9A003B61B1 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				375A466C2B3A9C8B0048484F /* GoogleLoginAPIInput.swift */,
-				375A466E2B3A9D500048484F /* GoogleLoginModel.swift */,
-				375A46702B3A9DEA0048484F /* GoogleLoginDataManager.swift */,
+				37FEC7D42B3AFAA1003B61B1 /* GoogleLoginDataManager */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		37FEC7D42B3AFAA1003B61B1 /* GoogleLoginDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				37FEC7D52B3AFADD003B61B1 /* GoogleLoginModel.swift */,
+				37FEC7D72B3AFAEB003B61B1 /* GoogleLoginDataManager.swift */,
 			);
 			path = GoogleLoginDataManager;
 			sourceTree = "<group>";
@@ -710,6 +715,7 @@
 			files = (
 				EA01079E2A59556800A3AE85 /* PostViewController.swift in Sources */,
 				EA0107AE2A5EC23900A3AE85 /* OtherCollectionViewCell.swift in Sources */,
+				37FEC7D82B3AFAEB003B61B1 /* GoogleLoginDataManager.swift in Sources */,
 				EA0107A72A5CF73900A3AE85 /* AlarmViewController.swift in Sources */,
 				3741480E2AB5675D009CFF5E /* FollowListViewController.swift in Sources */,
 				EA01079C2A59556800A3AE85 /* PostTabViewController.swift in Sources */,
@@ -723,8 +729,6 @@
 				EA17182B2A5912A7009168E6 /* CameraViewController.swift in Sources */,
 				084AF4C72A5D831100C6454A /* HomeCollectionViewCell.swift in Sources */,
 				EAFB4B8F2A514B2600E0F2FA /* TabbarController.swift in Sources */,
-				375A466D2B3A9C8B0048484F /* GoogleLoginAPIInput.swift in Sources */,
-				375A46712B3A9DEA0048484F /* GoogleLoginDataManager.swift in Sources */,
 				374148122AB59AC8009CFF5E /* TabbarHeadingCollectionViewCell.swift in Sources */,
 				EABD20652A6CF5CC007543E9 /* TagCollectionViewCell.swift in Sources */,
 				0823B0742A5B0E780085002F /* CommentTableViewCell.swift in Sources */,
@@ -733,9 +737,9 @@
 				EA01079B2A59556800A3AE85 /* HomeTabViewController.swift in Sources */,
 				3741481B2AB5A5D8009CFF5E /* FirstTabViewController.swift in Sources */,
 				0820B1902A63A18100604DA8 /* ReplyTableViewCell.swift in Sources */,
-				375A466F2B3A9D500048484F /* GoogleLoginModel.swift in Sources */,
 				EA1718362A592BE3009168E6 /* AlarmCollectionViewCell.swift in Sources */,
 				376F125B2A8B7440005F469B /* SocialLoginViewController.swift in Sources */,
+				37FEC7D62B3AFADD003B61B1 /* GoogleLoginModel.swift in Sources */,
 				374148192AB5A5BB009CFF5E /* SecondTabViewController.swift in Sources */,
 				3741480C2AACA9C9009CFF5E /* ProfileTabViewController.swift in Sources */,
 				EA1B0B5B2A49D23A00F86FBC /* AppDelegate.swift in Sources */,
